@@ -66,6 +66,7 @@ IEEE Open Access Journal of Power and Energy, 2025.
 
 **BibTeX Citation:**
 
+```bibtex
 @article{saber2025llm_tcdr,
   author    = {Ahmad Mohammad Saber and Paul Budnarain and Saeed Jafari and Zhengmao Ouyang and Amr Youssef and Deepa Kundur},
   title     = {Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays},
