@@ -6,6 +6,14 @@ Ahmad Mohammad Saber, Paul Budnarain, Saeed Jafari, Zhengmao Ouyang, Amr Youssef
 **"Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays,"**
 IEEE Transactions on Smart Grid, 2025.
 
+Dataset File
+The dataset is provided as a CSV file:
+
+RelayMeasurementDataset.csv
+
+Dataset Link: https://drive.google.com/drive/folders/1BIEkicBhP3yOnGkJGQEnh84GnmtZuwcu?usp=drive_link
+
+
 ## Problem Description
 This repository implements a **DistilBERT-based classification pipeline** for detecting **faults** and **false data injection attacks (FDIAs)** in **line current differential relays (LCDRs)** in smart grids.  
 The aim is to identify cyber-attacks that mimic legitimate faults, which could otherwise mislead protection systems.
