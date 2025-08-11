@@ -72,7 +72,6 @@ IEEE Open Access Journal of Power and Energy, 2025.
   title     = {Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays},
   journal   = {IEEE Open Access Journal of Power and Energy},
   year      = {2025},
-  note      = {Accepted},
 }
 
 
