@@ -1,7 +1,7 @@
 # LLM-based Cyberattack Detection Dataset for Transformer Differential Relays
 This repository contains the dataset and code used in the experiments of our IEEE Transactions on Smart Grid letter:
 
-# Citation (Plain Text)
+# Citation 
 Ahmad Mohammad Saber, Paul Budnarain, Saeed Jafari, Zhengmao Ouyang, Amr Youssef, and Deepa Kundur,
 **"Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays,"**
 IEEE Transactions on Smart Grid, 2025.
