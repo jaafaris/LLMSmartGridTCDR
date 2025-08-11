@@ -58,12 +58,20 @@ Commercial use is not allowed without prior written approval from the first auth
 ## How to Cite
 If you use this dataset in your work, please cite the following paper:
 
-BibTeX Citation:
-@article{yourpaper2025,
-  title={LLMs for Smart Grid Relay Fault and Attack Detection},
-  author={Your Name and Co-authors},
-  journal={IEEE Transactions on Smart Grid},
-  year={2025},
-  note={Under Review / Accepted}
+**Plantext:**
+
+A. M. Saber, P. Budnarain, S. Jafari, Z. Ouyang, A. Youssef, and D. Kundur,
+"Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays,"
+IEEE Open Access Journal of Power and Energy, 2025.
+
+**BibTeX Citation:**
+
+@article{saber2025llm_tcdr,
+  author    = {Ahmad Mohammad Saber and Paul Budnarain and Saeed Jafari and Zhengmao Ouyang and Amr Youssef and Deepa Kundur},
+  title     = {Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays},
+  journal   = {IEEE Open Access Journal of Power and Energy},
+  year      = {2025},
+  note      = {Accepted},
 }
+
 
