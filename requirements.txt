@@ -1,0 +1,24 @@
+# Core Python version
+python>=3.9
+
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.53.1
+datasets>=2.20.0
+scikit-learn>=1.3.0
+
+# Data processing
+pandas>=2.0.3
+numpy>=1.24.4
+
+# Visualization (optional, for plotting results)
+matplotlib>=3.7.2
+
+# Progress bars
+tqdm>=4.66.1
+
+# Jupyter environment
+notebook>=7.0.0
+
+# For early stopping callback
+accelerate>=0.21.0
