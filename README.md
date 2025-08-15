@@ -1,4 +1,4 @@
-LC# Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays - Dataset
+# Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays - Dataset
 
 This repository contains the dataset and code used in the experiments of our IEEE Transactions on Smart Grid letter:
 
