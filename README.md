@@ -1,4 +1,4 @@
-# LLM-based Cyberattack Detection Dataset for Transformer Current Differential Relays
+# Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays - Dataset
 
 This repository contains the dataset and code used in the experiments of our IEEE Transactions on Smart Grid letter:
 
