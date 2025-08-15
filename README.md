@@ -1,4 +1,4 @@
-# Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays - Dataset
+LC# Large Language Models for Detecting Cyberattacks on Smart Grid Protective Relays - Dataset
 
 This repository contains the dataset and code used in the experiments of our IEEE Transactions on Smart Grid letter:
 
@@ -16,7 +16,7 @@ Dataset Link: https://drive.google.com/drive/folders/1BIEkicBhP3yOnGkJGQEnh84Gnm
 
 
 ## Problem Description
-This repository implements a **DistilBERT-based classification pipeline** for detecting **faults** and **false data injection attacks (FDIAs)** in **Transformercurrent differential relays (LCDRs)** in smart grids.  
+This repository implements a **DistilBERT-based classification pipeline** for detecting **faults** and **false data injection attacks (FDIAs)** in **Transformer current differential relays (TCDRs)** in smart grids.  
 The aim is to identify cyber-attacks that mimic legitimate faults, which could otherwise mislead protection systems.
 
 This work corresponds to the **main case study** from our research paper (see Citation), using clean measurement data only — no artificial noise or time delay perturbations.
