@@ -27,7 +27,7 @@ The dataset used is `RelayMeasurementDataset.csv`, prepared from real-time relay
 - **Features:** 6 channels of relay current measurements:
   - `PhaseA_In`, `PhaseB_In`, `PhaseC_In` (transformer input side)  
   - `PhaseA_Out`, `PhaseB_Out`, `PhaseC_Out` (transformer output side)  
-- **Time steps:** 32 per channel (downsampled from original 95 in an internal preprocessing step, not included here)
+- **Time steps:** 32 per channel
 - **Labels:**  
   - `0` → Fault  
   - `1` → Attack  
