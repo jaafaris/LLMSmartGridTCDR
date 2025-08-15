@@ -31,13 +31,10 @@ The dataset used is `RelayMeasurementDataset.csv`, prepared from real-time relay
 - **Labels:**  
   - `0` → Fault  
   - `1` → Attack  
-- **Format in this repository:** Each sample is converted into a **textual description** of current values for each channel, suitable for DistilBERT tokenization.
+- **Data Format for LLM:** Each sample is converted into a **textual description** of current values for each channel, suitable for DistilBERT tokenization.
 
 Example (shortened):
    - Transformer Differential Relay's current measurement vector of phase A in transformer input side: [0.12 0.15 ...] Transformer Differential Relay's current measurement vector of phase B ...
-
-
-> **Note:** This dataset represents only the clean case study without noise or delay.
 
 ## Approach
 The classification pipeline follows these steps:
@@ -46,7 +43,7 @@ The classification pipeline follows these steps:
 2. **Tokenize text data** using `DistilBertTokenizer` with truncation and padding (`max_length=512`).
 3. **Create PyTorch datasets** for training and evaluation.
 4. **Fine-tune DistilBERT** (`distilbert-base-uncased`) on the training set for binary classification.
-5. **Evaluate** using accuracy, precision, recall, and F1-score on the clean test set.
+5. **Evaluate** using cyberattack detection rate, accuracy, precision, recall, and F1-score on the test set.
 
 The model learns to interpret numeric measurement sequences embedded in descriptive text.
 
